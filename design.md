@@ -48,3 +48,5 @@ Design is the **intellectual activity of thinking through problems and making de
 - Separation is valuable only when concerns truly differ in purpose or volatility. Unnecessary separation creates complexity without benefit.
 - Components should clearly state their expectations and guarantees. Implicit contracts create fragility and prevent reuse.
 - Type systems can express constraints and intent at compile-time. This shifts error detection earlier and makes assumptions visible.
+
+Design is explaining WHY, not documenting WHAT. If you skip reasoning and alternatives, you're not designing.
