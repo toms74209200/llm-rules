@@ -8,6 +8,9 @@
 - For asynchronous operations, use Feature/Promise or Observer pattern, or pass callback functions as arguments
 - For returning values and recoverable errors, use language API's built-in tuple or Either/Result types. Do not create custom error types
 - Functions should not throw unchecked exceptions
+- Name tests as `when <target> with <given condition> then returns <expected>`
+- Abstract preconditions; use org.apache.commons.lang3.RandomStringUtils for string inputs instead of hardcoded literals
+- Use parameterized testing when test cases differ only in input values and expected results (e.g. enum conversion, boundary values)
 
 ## Test Types and Size Classification
 Refer to Google Testing Blog https://testing.googleblog.com/2010/12/test-sizes.html
